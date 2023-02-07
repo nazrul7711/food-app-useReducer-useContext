@@ -1,0 +1,7 @@
+.available{
+  margin-top: 5px;
+}
+.available li{
+  list-style: none;
+  font-weight: 500;
+}

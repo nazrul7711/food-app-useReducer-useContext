@@ -1,0 +1,22 @@
+.image img{
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+  /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
+}
+.header{
+  background-color: rgb(158, 7, 7);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+.header button{
+  height: 3em;
+  width: 15em;
+  border-radius: 15px;
+  border: none;
+}
+.fontawesome{
+
+}

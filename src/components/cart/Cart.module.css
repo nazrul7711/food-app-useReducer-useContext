@@ -1,0 +1,38 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(30, 29, 29, 0.6);
+}
+.overlay {
+  position: fixed;
+  top: 200px;
+  left: 350px;
+  height: 400px;
+  width: 50%;
+  background-color: white;
+  z-index: 4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 2em;
+  overflow: scroll;
+}
+.btn {
+  align-self: flex-end;
+}
+.btn button {
+  padding: 10px 2.5em;
+  border-radius: 20px;
+  margin-left: 10px;
+  border: 1px solid brown;
+  cursor: pointer;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}

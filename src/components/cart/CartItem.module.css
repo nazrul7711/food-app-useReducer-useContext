@@ -1,0 +1,44 @@
+
+
+li{
+  list-style:  none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  overflow: scroll;
+}
+.item  h1{
+  padding: 0px;
+}
+.item button{
+  margin-left: 30px;
+  padding:10px 25px;
+  border-radius: 5px;
+  border: 1px solid brown;
+  font-weight: bolder;
+  font-size: large;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 1800;
+}
+.item button:hover{
+  background-color: brown;
+  color: white;
+}
+.first{
+  width: 8em;
+}
+.first div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first h3{
+  color: brown;
+}
+.first .amount{
+  border: 1px solid brown;
+  padding: 5px;
+  border-radius: 4px;
+}

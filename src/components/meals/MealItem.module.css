@@ -1,0 +1,23 @@
+.mealItem{
+
+}
+.mealItem h3{
+  color: brown;
+}
+.price{
+  color: green;
+}
+.desc{
+  font-style: italic;
+}
+.line{
+  margin-top: 5px;
+  height: 1px;
+  background-color: rgb(181, 181, 181);
+  /* box-shadow: 0px 0px 5px 1px rgba(74, 74, 74,.5); */
+}
+.element{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
